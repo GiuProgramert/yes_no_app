@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:yes_no_app/domain/entities/message.dart';
 
+/// Widget used for the user chat bubble
 class MyMessageBubble extends StatelessWidget {
   final Message message;
 
@@ -8,6 +9,7 @@ class MyMessageBubble extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    /// Colors have themes information of the current color
     final colors = Theme.of(context).colorScheme;
 
     return Column(

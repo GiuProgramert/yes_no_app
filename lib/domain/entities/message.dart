@@ -1,5 +1,6 @@
 enum FromWho { me, other }
 
+/// Entity to represent the messages
 class Message {
   final String text;
   final String? imageUrl;

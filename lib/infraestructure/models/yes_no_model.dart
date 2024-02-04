@@ -1,5 +1,6 @@
 import 'package:yes_no_app/domain/entities/message.dart';
 
+/// Model used to map yes no api responses
 class YesNoModel {
   final String answer;
   final bool forced;

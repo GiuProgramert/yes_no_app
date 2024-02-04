@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:yes_no_app/domain/entities/message.dart';
 
+/// Used to reference the bubble chat of the bot
 class OtherMessageBubble extends StatelessWidget {
   final Message message;
 
@@ -8,6 +9,7 @@ class OtherMessageBubble extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    /// Colors have themes information of the current color
     final colors = Theme.of(context).colorScheme;
 
     return Column(
@@ -38,6 +40,8 @@ class OtherMessageBubble extends StatelessWidget {
   }
 }
 
+/// Bubble used for a Image in this case only the bot sents images so
+/// is used only for it
 class _ImageBubble extends StatelessWidget {
   final String imageUrl;
 

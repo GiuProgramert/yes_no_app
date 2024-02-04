@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+/// Message Field of the user
 class MessageFieldBox extends StatelessWidget {
   final ValueChanged<String> onValue;
 
@@ -21,6 +22,7 @@ class MessageFieldBox extends StatelessWidget {
         focusedBorder: outlineInputBorder,
         suffixIcon: IconButton(
             onPressed: () {
+              /// This method works when the user clicks in the input decoration
               final textValue = textController.value.text;
               textController.clear();
               onValue(textValue);
@@ -35,6 +37,9 @@ class MessageFieldBox extends StatelessWidget {
       decoration: inputDecoration,
       controller: textController,
       onFieldSubmitted: (value) {
+        /// This method works when the user clicks
+        /// in the enter of the keyboard
+
         onValue(value);
         textController.clear();
         focusNode.requestFocus();

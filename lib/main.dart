@@ -4,8 +4,10 @@ import 'package:yes_no_app/config/theme/app_theme.dart';
 import 'package:yes_no_app/presentation/providers/chat_provider.dart';
 import 'package:yes_no_app/presentation/screens/chat/chat_screen.dart';
 
+/// This is the enter point of the app
 void main() => runApp(const MyApp());
 
+/// Main Widget of the app
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 

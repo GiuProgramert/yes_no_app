@@ -6,6 +6,7 @@ import 'package:yes_no_app/presentation/widgets/chat/my_message_bubble.dart';
 import 'package:yes_no_app/presentation/widgets/chat/other_message_bubble.dart';
 import 'package:yes_no_app/presentation/widgets/shared/message_field_box.dart';
 
+/// Main Chat screen of the app
 class ChatScreen extends StatelessWidget {
   const ChatScreen({super.key});
 
@@ -28,11 +29,14 @@ class ChatScreen extends StatelessWidget {
   }
 }
 
+/// Body of the ChatScreen
 class _ChatView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    /// Global ChatProvider used to get the global context of the messages
     final chatProvider = context.watch<ChatProvider>();
 
+    /// ListView builder to add the bubbles of the chat
     final listViewBuilder = ListView.builder(
       controller: chatProvider.chatScrollController,
       itemCount: chatProvider.messages.length,
