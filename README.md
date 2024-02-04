@@ -1,16 +1,30 @@
 # yes_no_app
 
-A new Flutter project.
+## Table of contents
+- [Description](#description)
+- [Screenshots](#screenshots)
+    - [First State](#first-state)
+    - [Ask Question](#ask-question)
+    - [Normal message](#normal-message)
+    - [Multiple Themes](#multiple-themes)
 
-## Getting Started
+## Description
 
-This project is a starting point for a Flutter application.
+This app was made in my process of learning Flutter. It simulates a bot that makes an HTTP request to the [Yes No WTF API](https://yesno.wtf/api) and shows the response along with the GIF image in the chat.
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### First state
+![fisrt-state](screenshots/first_state.jpeg)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Ask question
+![ask-question](screenshots/ask_question.jpeg)
+
+### Normal Message
+![normal-message](screenshots/normal_message.jpeg)
+
+### Multiple Themes
+![multiple-themes-1](screenshots/multiple_themes_1.jpeg)
+![multiple-themes-2](screenshots/multiple_themes_2.jpeg)
+![multiple-themes-3](screenshots/multiple_themes_3.jpeg)
+
